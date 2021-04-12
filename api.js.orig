@@ -5,7 +5,6 @@ const second = process.argv[3];// Url-e
 const third = process.argv[4]; // Szczegóły
 const forth = process.argv[5]; // Login
 const fifth = process.argv[6]; // Hasło
-const sixth = process.argv[7]; // Hasło
 util.inspect.defaultOptions.maxArrayLength = null;
 if(!first)
 {
@@ -29,9 +28,12 @@ else
 			console.log("\x1b[36m%s\x1b[0m\x1b[37m","In some rare cases, shinden.pl does not display all resources to not signed in people.");
 			console.log("\x1b[36m%s\x1b[0m\x1b[37m","You may need this if content is not loaded.");
 			console.log("       \x1b[33m%s\x1b[0m\x1b[37m%s\x1b[0m\x1b[37m","-p",": Player ID's listing mode. args: [episode_url]");
+			console.log("\n\x1b[7m%s\x1b[0m\x1b[37m","=========Disabled modes for now:=========");
 			console.log("\x1b[36mExample of 'episode_url': https://shinden.pl/episode/246-bleach/view/6794");
-			console.log("       \x1b[33m%s\x1b[0m\x1b[37m%s\x1b[0m\x1b[37m","-g",": Player links listing mode. args: [player_id]");
+			console.log("       \x1b[33m%s\x1b[0m\x1b[37m%s\x1b[0m\x1b[37m","-g",": Player links listing mode. args: [player_id] [API_key]");
 			console.log("\x1b[36m%s\x1b[0m\x1b[37m","Example of 'player_id': 510080");
+			console.log("\x1b[36m%s\x1b[0m\x1b[37m","Example of 'API_key': UGVXdToyNjM2MzAsNSwyMDIxMDQxMTA3LDMsOTI2MjQ1MjU2");
+			console.log("\x1b[31m\x1b[7m%s\x1b[0m\x1b[37m","You need to obtain API_key in order to work.");
 			break;
 		}
 		case "-i":
@@ -116,8 +118,22 @@ else
 		}
 		case "-g":
 		{
-			if(second) shinapi.getVideoLink(second).then((s)=>{console.log(s)})
-			else console.log("No player id specified.");
+			if(0==1)
+			{
+			if (second)
+			{
+				if(third) shinapi.getVideoLink(second,third).then((s)=>{console.log(s)})
+				else console.log("You need API key.");
+			}
+			else
+			{
+				console.log("No URL specified.");
+			}
+			}
+			else
+			{
+				console.log("FEATURE DISABLED FOR NOW.");
+			}
 			break;
 		}
 		default:
