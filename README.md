@@ -70,8 +70,7 @@ After downloading and installing, launch in cmd those commands:<br>
 ``npm install puppeteer -g``<br>
 (Those installs basic html page requesting, and more advanced headless browser for processing JavaScript on page)<br>
 ## <a name="installation_api"></a>Downloading and installing API
-To download this API go into directory for installation and run this command:<br>
-``C:\someFolder>npm install https://github.com/PeWuPL/shinden-api.git``<br>
+Download this repository, unzip it there<br>
 If everything has gone alright, then try launching it!<br>
 ``C:\someFolder\node_modules\shinden-api>node run api.js -h``
 You should see something like this:<br><br>
