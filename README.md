@@ -70,9 +70,9 @@ After downloading and installing, launch in cmd those commands:<br>
 ``npm install puppeteer -g``<br>
 (Those installs basic html page requesting, and more advanced headless browser for processing JavaScript on page)<br>
 ## <a name="installation_api"></a>Downloading and installing API
-Download this repository, unzip it there<br>
+Download this repository, unzip it there.<br>
 If everything has gone alright, then try launching it!<br>
-``C:\someFolder\node_modules\shinden-api>node run api.js -h``
+``C:\someFolder>node run api.js -h``
 You should see something like this:<br><br>
 ![image](https://user-images.githubusercontent.com/42903478/114323447-873dc680-9b25-11eb-8eb9-55f1de1bb30c.png)<br>
 And done! Now you can run some nice web-crawling API's like this.
