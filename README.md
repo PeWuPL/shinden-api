@@ -1,6 +1,6 @@
 # ATTENTION!
-### Due to bad code writing, the whole project needs code rewriting.
-### This project contains bugs, therefore is strongly advised to NOT use this repo, rewrited code should arrive soon.
+### Due to bad code writing, the whole project needs reworking.
+### This project contains bugs, therefore is strongly advised to NOT use this repo, rewrited code should arrive when I feel like it.
 
 ## Table of contents
 [Information](https://github.com/PeWuPL/shinden-api#info)<br>
