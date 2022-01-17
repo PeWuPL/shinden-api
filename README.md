@@ -1,6 +1,5 @@
 # ATTENTION!
-### Due to bad code writing, the whole project needs reworking.
-### This project contains bugs, therefore is strongly advised to NOT use this repo, rewrited code should arrive when I feel like it.
+### This branch is for reworking code from main branch
 
 ## Table of contents
 [Information](https://github.com/PeWuPL/shinden-api#info)<br>
