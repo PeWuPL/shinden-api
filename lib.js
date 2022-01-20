@@ -671,7 +671,6 @@ function getEpisodes(titleUrl) {
 	return new Promise((res,rej)=>{
 		if(!titleUrl.includes("/all-episodes"))
 			titleUrl+="/all-episodes";
-	console.log(titleUrl)
 		getHTML(titleUrl).then((outhtml)=>{
 			let $ = cheerio.load(outhtml["body"]);
 			$ = $(".page-content");
