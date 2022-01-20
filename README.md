@@ -2,17 +2,17 @@
 ### This branch is for reworking code from main branch
 
 ## Table of contents
-[Information](https://github.com/PeWuPL/shinden-api#info)<br>
-[What is it?](https://github.com/PeWuPL/shinden-api#wii)<br>
-[Usage example](https://github.com/PeWuPL/shinden-api#usage)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Example](https://github.com/PeWuPL/shinden-api#wii_examples)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Returned value](https://github.com/PeWuPL/shinden-api#wii_returns)<br>
-[How to install](https://github.com/PeWuPL/shinden-api#installation)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Preparing installation](https://github.com/PeWuPL/shinden-api#installation_preparing)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Downloading and installing API](https://github.com/PeWuPL/shinden-api#installation_api)<br>
-[Commands](https://github.com/PeWuPL/shinden-api#cmds)<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Launching commands](https://github.com/PeWuPL/shinden-api#cmds_launching)<br>
-[Changelog](https://github.com/PeWuPL/shinden-api#changelog)<br>
+[Information](#info)<br>
+[What is it?](#wii)<br>
+[Usage example](#usage)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Example](#wii_examples)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Returned value](#wii_returns)<br>
+[How to install](#installation)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Preparing installation](#installation_preparing)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Downloading and installing API](#installation_api)<br>
+[Commands](#cmds)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[Launching commands](#cmds_launching)<br>
+[Changelog](#changelog)<br>
 # Before starting... <a name="info"></a>
 I'm not perfect.<br>
 This API was created and reworked in free time based on my knowledge. I know that some things can be done better, and I'll definitely work on them to be better.<br>
